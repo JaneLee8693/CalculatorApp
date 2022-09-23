@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.sevenButton = new System.Windows.Forms.Button();
             this.calculatorDisplay = new System.Windows.Forms.Label();
             this.eightButton = new System.Windows.Forms.Button();
@@ -283,6 +284,7 @@
             this.Controls.Add(this.eightButton);
             this.Controls.Add(this.calculatorDisplay);
             this.Controls.Add(this.sevenButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
