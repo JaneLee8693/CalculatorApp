@@ -172,12 +172,13 @@
             // 
             // decimalButton
             // 
-            this.decimalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.decimalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.decimalButton.Location = new System.Drawing.Point(104, 335);
             this.decimalButton.Name = "decimalButton";
             this.decimalButton.Size = new System.Drawing.Size(73, 47);
             this.decimalButton.TabIndex = 11;
-            this.decimalButton.Text = ".";
+            this.decimalButton.Text = "·";
+            this.decimalButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.decimalButton.UseVisualStyleBackColor = true;
             this.decimalButton.Click += new System.EventHandler(this.decimalButton_Click);
             // 
