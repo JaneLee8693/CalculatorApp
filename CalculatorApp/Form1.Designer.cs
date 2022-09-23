@@ -195,7 +195,7 @@
             // divideButton
             // 
             this.divideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divideButton.Location = new System.Drawing.Point(284, 113);
+            this.divideButton.Location = new System.Drawing.Point(283, 113);
             this.divideButton.Name = "divideButton";
             this.divideButton.Size = new System.Drawing.Size(73, 47);
             this.divideButton.TabIndex = 14;
@@ -239,7 +239,7 @@
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(12, 113);
+            this.clearButton.Location = new System.Drawing.Point(11, 113);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(162, 47);
             this.clearButton.TabIndex = 19;
@@ -250,7 +250,7 @@
             // clearLastButton
             // 
             this.clearLastButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearLastButton.Location = new System.Drawing.Point(192, 115);
+            this.clearLastButton.Location = new System.Drawing.Point(192, 113);
             this.clearLastButton.Name = "clearLastButton";
             this.clearLastButton.Size = new System.Drawing.Size(73, 47);
             this.clearLastButton.TabIndex = 20;
